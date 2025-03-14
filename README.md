@@ -1,5 +1,7 @@
 # intRbl - İç RBL Sistemi
 
+[English](README.en.md) | [Türkçe](README.md)
+
 İç RBL (Realtime Blacklist) Sistemi, şirket içi IP ve URL engelleme sistemi için geliştirilmiş web tabanlı bir yönetim aracıdır.
 
 ## Özellikler
@@ -56,6 +58,23 @@
 - CSRF koruması
 - Dosya yolu doğrulama
 - Hata ayıklama ve loglama
+
+## Dosya Yapısı
+
+### Veri Dosyaları
+- `blacklist_ips.txt`: Engellenen IP adresleri listesi
+- `blacklist_ips_detailed.txt`: Engellenen IP'lerin detaylı bilgileri
+- `blacklist_urls.txt`: Engellenen URL'ler listesi
+- `blacklist_urls_detailed.txt`: Engellenen URL'lerin detaylı bilgileri
+
+### Log Dosyaları
+- `debug.log`: Sistem logları ve hata takibi
+
+### Dokümantasyon
+- `README.md`: Türkçe dokümantasyon
+- `README.en.md`: İngilizce dokümantasyon
+- `database.md`: Veritabanı yapısı
+- `Hatalar.md`: Hata kayıtları ve çözümleri
 
 ## Lisans
 
