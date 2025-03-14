@@ -27,19 +27,13 @@ Internal RBL (Realtime Blacklist) System is a web-based management tool develope
 
 1. Upload files to your web server
 2. Set required permissions:
-   ```bash
-   chmod 755 .
-   chmod 644 *.html
-   chmod 644 *.php
-   chmod 666 *.txt
-   chmod 666 *.log
-   ```
+   chmod 755 *.txt
+   chmod 755 *.log
 
 ## Requirements
 
 - PHP 7.4 or higher
 - Web server (Apache/Nginx)
-- Modern browser with JavaScript support
 
 ## Technologies Used
 
@@ -72,3 +66,7 @@ Internal RBL (Realtime Blacklist) System is a web-based management tool develope
 - `README.md`: Turkish documentation
 - `README.en.md`: English documentation
 ory.
+## Images
+![Image](https://github.com/user-attachments/assets/51066d5e-3a2c-4e37-8c0f-4f60b9132ca5)
+
+![Image](https://github.com/user-attachments/assets/e831a2b2-844a-45df-9e61-38986c6ebc52)
