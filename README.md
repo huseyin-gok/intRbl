@@ -70,3 +70,7 @@ Ana Özellikler:
 ### Dokümantasyon
 - `README.md`: Türkçe dokümantasyon
 - `README.en.md`: İngilizce dokümantasyon
+### Resimler
+![Image](https://github.com/user-attachments/assets/51066d5e-3a2c-4e37-8c0f-4f60b9132ca5)
+
+![Image](https://github.com/user-attachments/assets/e831a2b2-844a-45df-9e61-38986c6ebc52)
