@@ -2,7 +2,9 @@
 
 [English](README.en.md) | [Türkçe](README.md)
 
-İç RBL (Realtime Blacklist) Sistemi, şirket içi IP ve URL engelleme sistemi için geliştirilmiş web tabanlı bir yönetim aracıdır.
+Bu sistem, zararlı IP adresleri ve URL'leri gerçek zamanlı olarak takip etmek ve engellemek için geliştirilmiş bir web uygulamasıdır. Sistem, güvenlik duvarı (firewall) entegrasyonu için otomatik olarak güncel blacklist dosyaları oluşturur ve yönetir.
+
+Ana Özellikler:
 
 ## Özellikler
 
@@ -10,7 +12,11 @@
   - IP adresi ekleme/silme
   - Toplu IP adresi ekleme
   - IP detaylarını görüntüleme
-  - MXToolbox entegrasyonu
+  - IP adresi ve URL engelleme sistemi
+  - Gerçek zamanlı istatistikler ve grafikler
+  - Toplu silme ve yönetim özellikleri
+  - MXToolbox butonu ile IP kontrol
+  - Türkçe arayüz ve kullanıcı dostu tasarım
 
 - URL Engelleme Yönetimi
   - URL ekleme/silme
@@ -27,21 +33,14 @@
 
 ## Kurulum
 
-1. Dosyaları web sunucunuza yükleyin
-2. Gerekli izinleri ayarlayın:
-   ```bash
-   chmod 755 .
-   chmod 644 *.html
-   chmod 644 *.php
-   chmod 666 *.txt
-   chmod 666 *.log
-   ```
+1. Dosyaları web php destekli bir sunucuya yükleyin. 
+2. Gerekli izinleri ayarlayın: .txt ve klasörleri yazma izni sağlayın.
 
 ## Gereksinimler
 
 - PHP 7.4 veya üzeri
+- Database Gerek Yoktur.
 - Web sunucusu (Apache/Nginx)
-- JavaScript desteği olan modern bir tarayıcı
 
 ## Kullanılan Teknolojiler
 
@@ -59,8 +58,6 @@
 - Dosya yolu doğrulama
 - Hata ayıklama ve loglama
 
-## Dosya Yapısı
-
 ### Veri Dosyaları
 - `blacklist_ips.txt`: Engellenen IP adresleri listesi
 - `blacklist_ips_detailed.txt`: Engellenen IP'lerin detaylı bilgileri
@@ -73,9 +70,3 @@
 ### Dokümantasyon
 - `README.md`: Türkçe dokümantasyon
 - `README.en.md`: İngilizce dokümantasyon
-- `database.md`: Veritabanı yapısı
-- `Hatalar.md`: Hata kayıtları ve çözümleri
-
-## Lisans
-
-MIT License
